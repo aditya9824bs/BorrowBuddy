@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  backdrop-filter: blur(30px);
+  align-items: center;
+  display: flex;
+  position: fixed;
+  padding: 0.5rem;
+  top: 0;
+}
+
+.logo {
+
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.heading_div {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar_list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
